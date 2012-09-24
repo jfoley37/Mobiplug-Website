@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family:myr;
+	src:url(fonts/MyriadPro-Regular.otf);
+}
+
+@font-face
+{
+	font-family:myr;
+	src:url(fonts/MyriadPro-Light.otf);
+	font-weight:lighter;
+}
+
+@font-face
+{
+	font-family:myr;
+	src:url(fonts/MyriadPro-Semibold.otf);
+	font-weight:bold;
+}
+
+h1
+{
+	font-size:24px;
+	font-weight:lighter;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+
+h2
+{
+	font-size:14px;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+a:link 
+{
+	color:#3C5C8B;
+	font-weight:bold;
+	text-decoration:none;
+} /* unvisited link */
+
+a:visited 
+{
+	color:#5E90CC;
+	font-weight:bold;
+	text-decoration:none;
+} /* visited link */
+
+a:hover 
+{
+	color:#5E90CC;
+	font-weight:bold;
+	text-decoration:none;
+} /* mouse over link */
+
+a:active 
+{
+	color:#3C5C8B;
+	font-weight:bold;
+	text-decoration:none;
+} /* selected link */
+
+#border
+{
+	width:1098px;
+	position:absolute;
+	border:#444444 1px solid;
+}
+
+#logoSM
+{
+	background-image:url(img/logoSM.png);
+	position:absolute;
+	width:78px;
+	height:18px;
+	top:10px;
+	left:10px;
+}
+
+#hiringFlag
+{
+	background-image:url(img/hiringFlag.png);
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:35px;
+	left:960px;
+}
+
+#techstarsFooter
+{
+	background-image:url(img/techstarsFooter.png);
+	position:absolute;
+	width:250px;
+	height:53px;
+	bottom:10px;
+	right:10px;
+}
+
+#nav
+{
+	position:absolute;
+	top:10px;
+	right:15px;
+	word-spacing:20px;
+}
+
+#container
+{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1100px;
+	background-color:#FFFFFF;
+	min-height:1000px;
+}
+
+html, body, #container, #border
+{
+	height:100%;
+}
+
+body
+{
+	margin:0px;
+	background-color:#B8BB9B;
+	font-family:myr;
+	font-size:14px;
+}

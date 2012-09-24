@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#leftCol
+{
+	position:absolute;
+	left:20px;
+	width:500px;
+	top:550px;
+	bottom:70px;
+}
+
+#rightCol
+{
+	position:absolute;
+	right:20px;
+	width:500px;
+	top:550px;
+	bottom:70px;
+}
+
+#image
+{
+	top:45px;
+	background-image:url(img/bgImg01.png);
+	position:absolute;
+	width:1094px;
+	height:481px;
+}
+
+#frame
+{
+	background-image:url(img/grid.png);
+	width:1100px;
+	height:481px;
+	position:absolute;
+	top:45px;
+	left:0;
+}
+
+#logo
+{
+	background-image:url(img/logo.png);
+	width:313px;
+	height:174px;
+	position:absolute;
+	top:330px;
+	left:30px;
+}
+
+#iPhone
+{
+	background-image:url(img/iPhone.png);
+	width:213px;
+	height:437px;
+	position:absolute;
+	top:150px;
+	left:780px;
+}
+
+#blindsIcon
+{
+	background-image:url(img/curtainsIcon.png);
+	position:absolute;
+	width:62px;
+	height:101px;
+}
+
+#lightIcon
+{
+	background-image:url(img/lightIcon.png);
+	position:absolute;
+	width:62px;
+	height:101px;
+}
+
+#fireIcon
+{
+	background-image:url(img/fireIcon.png);
+	position:absolute;
+	width:62px;
+	height:101px;
+}
